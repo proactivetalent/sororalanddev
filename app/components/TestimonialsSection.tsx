@@ -10,7 +10,7 @@ const testimonials = [
     quote: "Sorora renovated our Park Slope brownstone. They managed impossible Landmarks Commission approvals, stayed on budget, and the quality is extraordinary. They are the only contractors I'll recommend in NYC.",
   },
   {
-    image: "/pictures/testimonial-1.png",
+    image: "/pictures/testimonial-2.png",
     name: "Eleanor R, ",
     location: "Retail Business Owner",
     quote: "Our West Village boutique needed a complete overhaul on a tight deadline. Sorora’s team was professional, precise, and delivered a stunning space that has increased our foot traffic. Exceptional.",
@@ -87,7 +87,7 @@ export default function TestimonialsSection() {
       </div>
 
       {/* Testimonial Card */}
-      <div className="bg-[#F7F8F8] rounded-[32px] p-6 md:p-10">
+      <div className="bg-[#F7F8F8] rounded-[65px] p-6 md:p-10">
         <div className="relative overflow-hidden">
           {/* Carousel Container */}
           <div
@@ -97,11 +97,11 @@ export default function TestimonialsSection() {
             {testimonials.map((testimonial, index) => (
               <div
                 key={index}
-                className="w-full flex-shrink-0 flex flex-col md:flex-row gap-8 md:gap-12"
+                className="w-full flex-shrink-0 flex flex-col md:flex-row items-center gap-8 md:gap-12"
               >
                 {/* Image */}
                 <div className="md:w-3/5">
-                  <div className="relative w-full rounded-[24px] overflow-hidden">
+                  <div className="relative w-full h-[200px] md:h-[280px] lg:h-[320px] rounded-[65px] overflow-hidden">
                     <img
                       src={testimonial.image}
                       alt={`${testimonial.name} project`}
