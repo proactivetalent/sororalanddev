@@ -4,13 +4,13 @@ import { useState } from "react";
 
 const testimonials = [
   {
-    image: "/pictures/testimonial-1.png",
+    image: "/pictures/testimonial-1.webp",
     name: "The Chen Family",
     location: "Brooklyn",
     quote: "Sorora renovated our Park Slope brownstone. They managed impossible Landmarks Commission approvals, stayed on budget, and the quality is extraordinary. They are the only contractors I'll recommend in NYC.",
   },
   {
-    image: "/pictures/testimonial-2.png",
+    image: "/pictures/testimonial-2.webp",
     name: "Eleanor R, ",
     location: "Retail Business Owner",
     quote: "Our West Village boutique needed a complete overhaul on a tight deadline. Sorora’s team was professional, precise, and delivered a stunning space that has increased our foot traffic. Exceptional.",

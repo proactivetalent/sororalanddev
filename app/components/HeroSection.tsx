@@ -5,11 +5,11 @@ import { useState, useEffect, useCallback, useRef } from "react";
 
 // Add your hero images here
 const heroImages = [
-  { src: "/pictures/hero-1.png", alt: "Modern luxury home 1" },
-  { src: "/pictures/hero-2.png", alt: "Modern luxury home 2" },
-  { src: "/pictures/hero-3.png", alt: "Modern luxury home 3" },
-  { src: "/pictures/hero-4.png", alt: "Modern luxury home 4" },
-  { src: "/pictures/hero-5.png", alt: "Modern luxury home 5" },
+  { src: "/pictures/hero-1.webp", alt: "Modern luxury home 1" },
+  { src: "/pictures/hero-2.webp", alt: "Modern luxury home 2" },
+  { src: "/pictures/hero-3.webp", alt: "Modern luxury home 3" },
+  { src: "/pictures/hero-4.webp", alt: "Modern luxury home 4" },
+  { src: "/pictures/hero-5.webp", alt: "Modern luxury home 5" },
 ];
 
 const AUTOPLAY_INTERVAL = 3000; // 3 seconds per slide

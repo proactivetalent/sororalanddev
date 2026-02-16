@@ -8,25 +8,25 @@ const services = [
     number: "01",
     title: "Residential Renovations",
     description: "Full-scale apartment overhauls, kitchen & bathroom remodels, brownstone restoration, and custom luxury interiors. Make your NYC home a reflection of you.",
-    image: "/pictures/service-1.png",
+    image: "/pictures/service-1.webp",
   },
   {
     number: "02",
     title: "Commercial Build-Outs",
     description: "Efficient, code-compliant spaces for retail, offices, restaurants, and healthcare. We minimize downtime and build for your business's success.",
-    image: "/pictures/service-2.png",
+    image: "/pictures/service-2.webp",
   },
   {
     number: "03",
     title: "Building Restoration & Facades",
     description: "Specialized work for NYC exteriors, masonry, roofing, and landmarked properties, ensuring safety, compliance, and aesthetic integrity.",
-    image: "/pictures/service-3.png",
+    image: "/pictures/service-3.webp",
   },
   {
     number: "04",
     title: "Space Planning & Pre-Construction",
     description: "Not sure where to start? Our in-house team helps visualize your project, plan feasibility, and establish a realistic budget before the first hammer swings.",
-    image: "/pictures/service-4.png",
+    image: "/pictures/service-4.webp",
   },
 ];
 
