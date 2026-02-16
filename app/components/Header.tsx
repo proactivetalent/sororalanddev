@@ -63,7 +63,7 @@ export default function Header() {
             isVisible ? "translate-y-0" : "-translate-y-[calc(100%+2rem)]"
           }`}
         >
-          <div className="flex items-stretch justify-between h-full">
+          <div className="relative flex items-stretch justify-between h-full">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 h-full">
               <div className="px-4 md:px-8 flex items-center justify-center h-full">
@@ -76,7 +76,7 @@ export default function Header() {
             </Link>
 
             {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center gap-10">
+            <nav className="hidden lg:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 items-center gap-10">
               {navLinks.map((link) => {
                 const isActive = pathname === link.href;
                 return (
