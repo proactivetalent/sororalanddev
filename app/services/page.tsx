@@ -16,7 +16,7 @@ const processSteps = [
   {
     number: "3",
     title: "Permit & Prep",
-    description: "We secure all NYC approvals and mobilize our vetted crews.",
+    description: "We secure all approvals and mobilize our vetted crews.",
   },
   {
     number: "4",
@@ -100,10 +100,10 @@ const Page = () => {
         <div className="bg-[#F7F8F8] rounded-[32px] md:rounded-[65px] p-6 md:p-12 lg:px-16 lg:py-16">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900 mb-6 md:mb-8">
-              Precision-Built Solutions for New York's Unique Spaces
+            Precision-Built Solutions for New York & New Jersey Unique Spaces
             </h1>
             <p className="text-sm md:text-base text-gray-600 leading-relaxed max-w-3xl mx-auto">
-              At Sorora, we specialize in managing the complexity of New York City construction. From navigating historic district regulations to executing flawless finishes in high-rise buildings, our comprehensive services are designed to turn your vision into a seamlessly delivered reality. Every project is backed by our fixed-price promise, dedicated project management, and deep NYC expertise.
+            At Sorora, we specialize in managing the complexity of complexity of City’s construction. From navigating historic district regulations to executing flawless finishes in high-rise buildings, our comprehensive services are designed to turn your vision into a seamlessly delivered reality. Every project is backed by our fixed-price promise, dedicated project management, and deep expertise.
             </p>
           </div>
         </div>
@@ -178,7 +178,7 @@ const Page = () => {
               Residential Renovation & Remodeling
             </h2>
             <p className="text-sm md:text-base text-gray-600 leading-relaxed mb-6 md:mb-8">
-              Transform your home with a partner who understands the intricacies of NYC living. We deliver beauty, function, and value, respecting your space and your schedule.
+            Transform your home with a partner who understands the intricacies of living. We deliver beauty, function, and value, respecting your space and your schedule.
             </p>
 
             <ul className="space-y-4 md:space-y-2">

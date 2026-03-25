@@ -10,7 +10,7 @@ const Page = () => {
             Terms & Conditions
           </h1>
           <p className="text-sm md:text-base lg:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            These Terms of Service ("Terms") govern your engagement with Sorora General Contracting LLC ("Company," "we," "us," or "our"), a licensed general contracting firm operating from New York, NY, USA. By accessing our website or utilizing our services, you expressly agree to be bound by these legally binding terms.
+            These Terms of Service ("Terms") govern your engagement with Sorora General Contracting LLC ("Company," "we," "us," or "our"), a licensed general contracting firm operating from  New York, NY, New Jersey, NJ, USA By accessing our website or utilizing our services, you expressly agree to be bound by these legally binding terms.
           </p>
         </div>
       </section>
@@ -46,7 +46,7 @@ const Page = () => {
 
           {/* Disclaimer */}
           <p className="text-xs md:text-sm text-gray-500 max-w-3xl mx-auto leading-relaxed">
-            Service scope, pricing, and availability are subject to change. All work complies with applicable NYC Building Codes, Department of Buildings (DOB) regulations, and industry standards.
+            Service scope, pricing, and availability are subject to change. All work complies with applicable Building Codes, Department of Buildings (DOB) regulations, and industry standards.
           </p>
         </div>
       </section>
@@ -161,7 +161,7 @@ const Page = () => {
               </h3>
             </div>
             <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-              These Terms are governed by the laws of the State of New York. Any disputes shall first be addressed through good-faith negotiation. If unresolved, disputes shall be submitted to binding arbitration in New York County, NY, in accordance with the American Arbitration Association's Construction Industry Rules.
+            These Terms are governed by the laws of the State of New York for services performed in New York, and by the laws of the State of New Jersey for services performed in New Jersey. Any disputes shall first be addressed through good-faith negotiation. If unresolved, disputes shall be submitted to binding arbitration in the county where the services were performed (New York County, NY, or the applicable county in NJ), in accordance with the American Arbitration Association's Construction Industry Rules.
             </p>
           </div>
 

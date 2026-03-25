@@ -60,7 +60,7 @@ const Page = () => {
                                 Let's Build<br />Your Vision
                             </h1>
                             <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-                                Every exceptional New York City project starts with a conversation. Whether you're planning a full-scale renovation, a commercial build-out, or simply have questions about where to begin, the Sorora team is here to listen, guide, and provide clarity.
+                            Every exceptional project starts with a conversation. Whether you're planning a full-scale renovation, a commercial build-out, or simply have questions about where to begin, the Sorora team is here to listen, guide, and provide clarity.
                             </p>
                         </div>
 
@@ -200,7 +200,7 @@ const Page = () => {
                                     Service Area
                                 </h2>
                                 <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-                                    We are proud to serve the greater New York City metropolitan area, bringing our expertise and process to all five boroughs and select surrounding communities.
+                                We are proud to serve 2 states, New York City & The New Jersey, bringing our expertise and process to all five boroughs of NYC, its surrounding communities & New Jersey
                                 </p>
                             </div>
 

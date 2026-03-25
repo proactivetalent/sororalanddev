@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import SmoothScroll from "./components/SmoothScroll";
+import ChatWidget from "./components/ChatWidget";
 
 const satoshi = localFont({
   src: [
@@ -50,6 +51,7 @@ export default function RootLayout({
           <Header />
           <main className="pt-20 md:pt-32">
             {children}
+            {/* <ChatWidget /> 👈 global chatbot */}
           </main>
           <Footer />
         </SmoothScroll>

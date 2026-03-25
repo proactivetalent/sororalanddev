@@ -11,7 +11,7 @@ const Page = () => {
               Privacy Policy
             </h1>
             <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-              This Privacy Policy is issued by Sorora General Contracting LLC ("we," "us," or "our"), a licensed general contracting firm operating in New York, NY, USA. This document outlines our practices regarding the collection, use, and protection of your personal information when you engage with our services, website, or communications.
+            This Privacy Policy is issued by Sorora General Contracting LLC ("we," "us," or "our"), a licensed general contracting firm operating in  New York, NY, New Jersey, NJ This document outlines our practices regarding the collection, use, and protection of your personal information when you engage with our services, website, or communications.
             </p>
           </div>
         </div>
@@ -317,7 +317,7 @@ const Page = () => {
             </div>
             
             <p className="text-sm md:text-base text-gray-600 mb-4">
-              As a resident of New York or other applicable jurisdictions, you may have the right to:
+              As a resident of these 2 states or other applicable jurisdictions, you may have the right to:
             </p>
             
             <ul className="space-y-2">
@@ -368,7 +368,7 @@ const Page = () => {
               </li>
               <li className="flex items-start gap-2 text-sm md:text-base text-gray-600">
                 <span className="w-1.5 h-1.5 bg-gray-900 rounded-full mt-2 flex-shrink-0"></span>
-                Comply with legal obligations (e.g., NYC building code records, tax, insurance, or liability requirements).
+                Comply with legal obligations.
               </li>
               <li className="flex items-start gap-2 text-sm md:text-base text-gray-600">
                 <span className="w-1.5 h-1.5 bg-gray-900 rounded-full mt-2 flex-shrink-0"></span>

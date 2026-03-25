@@ -138,19 +138,17 @@ export default function HeroSection() {
           {/* Left - Heading */}
           <div className="lg:w-1/2">
             <h1 className="pl-10 text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-gray-900">
-              Built for<br />New York
+              Built for<br />your Need
             </h1>
           </div>
 
           {/* Right - Description & CTA */}
           <div className="lg:w-1/2 flex flex-col justify-center">
             <p className="text-sm md:text-base font-medium text-gray-900 mb-2">
-              Precision General Contracting for NYC&apos;s all four boroughs.
+              General Contracting for NYC&apos;s all five boroughs and New Jersey
             </p>
             <p className="text-sm md:text-base text-gray-600 leading-relaxed mb-6">
-              At Sorora, we transform the complexity of New York City construction into a
-              seamless, trusted process. From brownstone renovations to commercial build-outs, we deliver exceptional craftsmanship, transparent communication, and
-              peace of mind.
+            At Sorora, we transform the complexity of construction into a seamless, trusted process. From brownstone renovations to commercial build-outs, we deliver exceptional craftsmanship, transparent communication, and peace of mind.
             </p>
             <Link
               href="/contact"

@@ -13,7 +13,7 @@ const page = () => {
               About Us
             </p>
             <h1 className="px-0 md:px-12 lg:px-48 text-3xl md:text-5xl lg:text-7xl font-bold leading-tight text-gray-900">
-              Building New York's Future, with Integrity
+              Building the Future,<br/> with Integrity
             </h1>
           </div>
         </div>
@@ -28,15 +28,10 @@ const page = () => {
               We're Your Building<br />Partners.
             </h2>
             <p className="text-sm md:text-base text-gray-600 leading-relaxed mb-6">
-              In a city that never stops evolving, building and renovation require more than skill—              they demand partnership, foresight, and an unwavering commitment to excellence.
-              Sorora was founded on a simple belief: the construction process in New York City
-              should be transparent, predictable, and even enjoyable.
+            New York & New Jersey, 2 cities that never stop evolving, building and renovation require more than skill—they demand partnership, foresight, and an unwavering commitment to excellence. Sorora was founded on a simple belief: the construction process in New York & New Jersey should be transparent, predictable, and even enjoyable.
             </p>
             <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-              We are a team of licensed general contractors, master craftsmen, and project
-              managers united by a shared ethos. We bridge the gap between visionary
-              architects, discerning clients, and the complex reality of NYC building codes. Sorora
-              isn't just about constructing spaces; it's about building trust, one project at a time.
+            We are a team of licensed general contractors, master craftsmen, and project managers united by a shared ethos. We bridge the gap between visionary architects, discerning clients, and the complex reality of building codes. Sorora isn’t just about constructing spaces; it’s about building trust, one project at a time.
             </p>
           </div>
 
@@ -70,10 +65,10 @@ const page = () => {
             {/* Right Side - Text Content */}
             <div className="lg:w-3/4">
               <p className="text-sm md:text-base text-gray-600 leading-relaxed mb-6">
-                Sorora's roots are deeply embedded in the diverse fabric of New York City. Our founders combined decades of experience in high-end residential remodeling and large-scale commercial build-outs. They saw a common thread in the industry: homeowners and business owners felt overwhelmed, kept in the dark, and frustrated by delays and ballooning budgets. In response, Sorora was born—a general contracting firm built on the principles of clarity, communication, and craftsmanship.
+              Sorora’s roots are deeply embedded in the diverse fabric of New York & New Jersey. Our founders combined decades of experience in high-end residential remodeling and large-scale commercial build-outs. They saw a common thread in the industry: homeowners and business owners felt overwhelmed, kept in the dark, and frustrated by delays and ballooning budgets. In response, Sorora was born—a general contracting firm built on the principles of clarity, communication, and craftsmanship. 
               </p>
               <p className="text-sm md:text-base text-gray-600 leading-relaxed">
-                A collaborative, familial approach to what is often an adversarial process. We are in your corner, advocating for your project as if it were our own.
+              A collaborative, familial approach to what is often an adversarial process. We are in your corner, advocating for your project as if it were our own.
               </p>
             </div>
           </div>
@@ -99,9 +94,9 @@ const page = () => {
               <div className="bg-[#F7F8F8] rounded-[20px] md:rounded-[24px] p-5 md:p-6 relative overflow-hidden">
                 <span className="absolute top-2 right-2 md:top-4 md:right-4 text-[100px] md:text-[160px] font-bold text-[#E20D6E]/5 leading-none select-none">1</span>
                 <div className="relative z-10">
-                  <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2 md:mb-3">NYC Expertise is Non-Negotiable</h3>
+                  <h3 className="text-base md:text-lg font-bold text-gray-900 mb-2 md:mb-3">Our Expertise is Non-Negotiable</h3>
                   <p className="text-sm text-gray-600 leading-relaxed">
-                    We don't just work in New York; we understand its unique ecosystem. Our team's deep knowledge of the Department of Buildings (DOB), Landmarks Preservation Commission, Co-op/Condo board requirements, and building management protocols is baked into our planning. We navigate the red tape so you can focus on the vision.
+                  We don’t just work in these 2 cities; we understand its unique ecosystem. Our team’s deep knowledge of different departments, Landmarks Preservation Commission, Co-op/Condo board requirements, and building management protocols is baked into our planning. We navigate the red tape so you can focus on the vision.
                   </p>
                 </div>
               </div>
@@ -194,7 +189,7 @@ const page = () => {
                     Sustainable Building Practices
                   </h3>
                   <p className="text-sm text-gray-600 leading-relaxed pl-4">
-                    We are committed to reducing waste, sourcing sustainable materials where possible, and implementing energy-efficient solutions for a greener New York.
+                  We are committed to reducing waste, sourcing sustainable materials where possible, and implementing energy-efficient solutions for a greener New York & New Jersey.
                   </p>
                 </li>
                 

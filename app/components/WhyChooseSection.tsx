@@ -26,7 +26,7 @@ const features = [
     icon: (
       <img src="/pictures/icons/license.png" alt="Licensed, Insured & NYC-Savvy" className="w-full h-full object-contain" />
     ),
-    title: "Licensed, Insured & NYC-Savvy",
+    title: "Licensed & Insured",
     description: "We know the DOB, Landmarks, and Co-op Board requirements inside and out. We secure permits and navigate regulations so you don't have to.",
   },
 ];
@@ -41,7 +41,7 @@ export default function WhyChooseSection() {
             NYC Property Owners & Businesses Choose Sorora
           </h2>
           <p className="text-base md:text-lg text-gray-600 leading-relaxed">
-            Navigating permits, timelines, and countless details in NYC is a full-time job. Sorora is your partner, handling everything with the expertise the city demands.
+            Navigating permits, timelines, and countless details in NY & NJ is a full-time-job. Sorora is your partner, handling everything with the expertise the city demands.
           </p>
         </div>
 
