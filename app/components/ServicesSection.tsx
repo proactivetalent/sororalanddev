@@ -28,6 +28,12 @@ const services = [
     description: "Not sure where to start? Our in-house team helps visualize your project, plan feasibility, and establish a realistic budget before the first hammer swings.",
     image: "/pictures/service-4.webp",
   },
+  {
+    number: "05",
+    title: "Industrial & Warehouse Construction",
+    description: "We Specialize in industrial fit-outs, warehouse renovations, distribution center build-outs, and manufacturing facility upgrades. we deliver durable, functional environments built for operational efficiency.",
+    image: "/pictures/service-4.webp",
+  },
 ];
 
 export default function ServicesSection() {
@@ -88,7 +94,7 @@ export default function ServicesSection() {
                   }}
                 >
                   {/* Content */}
-                  <div className="flex flex-col justify-between w-1/2 pr-2">
+                  <div className="flex flex-col justify-between w-1/2">
                     <div>
                       <span 
                         className="text-4xl font-bold text-white/90 block mb-2"
@@ -108,7 +114,7 @@ export default function ServicesSection() {
                       </h3>
                     </div>
                     <p 
-                      className="text-sm leading-relaxed text-white/90"
+                      className="text-sm leading-normal text-white/90"
                       style={{
                         transition: "all 400ms cubic-bezier(0.4, 0, 0.2, 1) 100ms",
                       }}
@@ -135,7 +141,7 @@ export default function ServicesSection() {
                 /* Inactive Card - Content Only */
                 <div className="flex flex-col h-full">
                   <span 
-                    className="text-4xl font-bold text-[#E20D6E] block mb-3"
+                    className="text-4xl font-bold text-[#E20D6E] block mb-2"
                     style={{
                       transition: "all 400ms cubic-bezier(0.4, 0, 0.2, 1)",
                     }}
@@ -143,7 +149,7 @@ export default function ServicesSection() {
                     {service.number}
                   </span>
                   <h3 
-                    className="text-lg font-bold text-gray-900 mb-3"
+                    className="text-lg font-bold text-gray-900 mb-2"
                     style={{
                       transition: "all 400ms cubic-bezier(0.4, 0, 0.2, 1)",
                     }}
@@ -151,7 +157,7 @@ export default function ServicesSection() {
                     {service.title}
                   </h3>
                   <p 
-                    className="text-sm leading-relaxed text-gray-600"
+                    className="text-sm leading-tight text-gray-600"
                     style={{
                       transition: "all 400ms cubic-bezier(0.4, 0, 0.2, 1)",
                     }}

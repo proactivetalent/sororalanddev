@@ -54,13 +54,19 @@ const consultingImages = [
   { src: "/pictures/services/con3.png", alt: "Project consulting" },
 ];
 
+const industrialImages = [
+  { src: "/pictures/services/ind1.png", alt: "Industrial space" },
+  { src: "/pictures/services/ind2.png", alt: "Industrial space" },
+  { src: "/pictures/services/ind3.png", alt: "Industrial space" },
+];
+
 const Page = () => {
   // Independent state for each carousel
   const [residentialIndex, setResidentialIndex] = useState(0);
   const [commercialIndex, setCommercialIndex] = useState(0);
   const [restorationIndex, setRestorationIndex] = useState(0);
   const [consultingIndex, setConsultingIndex] = useState(0);
-
+  const [industrialIndex, setIndustrialIndex] = useState(0);
   // Residential carousel controls
   const nextResidential = () => {
     setResidentialIndex((prev) => (prev + 1) % residentialImages.length);
@@ -91,6 +97,14 @@ const Page = () => {
   };
   const prevConsulting = () => {
     setConsultingIndex((prev) => (prev - 1 + consultingImages.length) % consultingImages.length);
+  };
+
+  // Industrial carousel controls
+  const nextIndustrial = () => {
+    setIndustrialIndex((prev) => (prev + 1) % industrialImages.length);
+  };
+  const prevIndustrial = () => {
+    setIndustrialIndex((prev) => (prev - 1 + industrialImages.length) % industrialImages.length);
   };
 
   return (
@@ -597,6 +611,166 @@ const Page = () => {
           </div>
         </div>
       </section>
+
+      {/* Industrial & Warehouse Construction */}
+      <section className="w-[90%] max-w-[1760px] mx-auto mb-12 md:mb-[100px]">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 items-center">
+          {/* Left Side - Image Carousel with Thumbnail Preview */}
+          <div className="lg:w-1/2 relative">
+            {/* Main Image */}
+            <div className="rounded-[24px] md:rounded-[32px] overflow-hidden">
+              <img
+                src={industrialImages[industrialIndex].src}
+                alt={industrialImages[industrialIndex].alt}
+                className="w-full h-auto object-cover transition-opacity duration-500"
+              />
+            </div>
+            
+            {/* Thumbnail Strip - Shows All Images */}
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 md:bottom-8 flex items-center gap-2">
+              
+              {/* Nav button */}
+              <button 
+                onClick={prevIndustrial}
+                className="w-8 h-8 md:w-10 md:h-10 bg-[#E20D6E] hover:bg-pink-700 rounded-full flex items-center justify-center shadow-lg transition-colors ml-1"
+                aria-label="Previous image"
+              >
+                <svg className="w-4 h-4 md:w-5 md:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+              </button>
+              {/* Preview thumbnails */}
+              <div className="flex gap-2">
+                {industrialImages.map((image, index) => (
+                  <button
+                    key={index}
+                    onClick={() => setIndustrialIndex(index)}
+                    className={`rounded-[8px] md:rounded-[12px] overflow-hidden transition-all duration-300 ${
+                      index === industrialIndex 
+                        ? "ring-2 ring-[#E20D6E] ring-offset-2 scale-105" 
+                        : "opacity-70 hover:opacity-100"
+                    }`}
+                  >
+                    <img
+                      src={image.src}
+                      alt={image.alt}
+                      className="w-16 h-12 md:w-24 md:h-16 object-cover"
+                    />
+                  </button>
+                ))}
+              </div>
+              
+              {/* Nav button */}
+              <button 
+                onClick={nextIndustrial}
+                className="w-8 h-8 md:w-10 md:h-10 bg-[#E20D6E] hover:bg-pink-700 rounded-full flex items-center justify-center shadow-lg transition-colors ml-1"
+                aria-label="Next image"
+              >
+                <svg className="w-4 h-4 md:w-5 md:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+
+            
+          </div>
+
+          {/* Right Side - Content */}
+          <div className="lg:w-1/2">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 md:mb-6">
+            Industrial & Warehouse Construction
+            </h2>
+            <p className="text-sm md:text-base text-gray-600 leading-relaxed mb-6 md:mb-8">
+              Industrial spaces demand specialized expertise. Whether you're upgrading a manufacturing facility, converting a warehouse for modern logistics, or building out a distribution center, Sorora delivers robust solutions built for performance and longevity.
+            </p>
+
+            <ul className="space-y-4 md:space-y-2">
+              <li>
+                <h3 className="text-sm md:text-base font-bold text-gray-900 mb-1 flex items-start gap-2">
+                  <span className="w-1.5 h-1.5 bg-gray-900 rounded-full mt-2 flex-shrink-0"></span>
+                  Warehouse Renovations & Upgrades
+                </h3>
+                <p className="text-sm text-gray-600 leading-relaxed pl-4">
+                Modernizing existing facilities for improved workflow, storage capacity, and operational efficiency.
+                </p>
+              </li>
+
+              <li>
+                <h3 className="text-sm md:text-base font-bold text-gray-900 mb-1 flex items-start gap-2">
+                  <span className="w-1.5 h-1.5 bg-gray-900 rounded-full mt-2 flex-shrink-0"></span>
+                  Distribution Center Build-Outs
+                </h3>
+                <p className="text-sm text-gray-600 leading-relaxed pl-4">
+                Strategic layouts for high-volume inventory management, including loading dock installation and conveyor system integration.
+                </p>
+              </li>
+
+              <li>
+                <h3 className="text-sm md:text-base font-bold text-gray-900 mb-1 flex items-start gap-2">
+                  <span className="w-1.5 h-1.5 bg-gray-900 rounded-full mt-2 flex-shrink-0"></span>
+                  Manufacturing Facility Construction
+                </h3>
+                <p className="text-sm text-gray-600 leading-relaxed pl-4">
+                Code-compliant industrial spaces designed for heavy equipment, specialized ventilation, and production line efficiency.
+
+                </p>
+              </li>
+
+              <li>
+                <h3 className="text-sm md:text-base font-bold text-gray-900 mb-1 flex items-start gap-2">
+                  <span className="w-1.5 h-1.5 bg-gray-900 rounded-full mt-2 flex-shrink-0"></span>
+                  Light Industrial Fit-Outs
+                </h3>
+                <p className="text-sm text-gray-600 leading-relaxed pl-4">
+                Flexible spaces for fabrication, assembly, storage, and R&D operations.
+                </p>
+              </li>
+
+              <li>
+                <h3 className="text-sm md:text-base font-bold text-gray-900 mb-1 flex items-start gap-2">
+                  <span className="w-1.5 h-1.5 bg-gray-900 rounded-full mt-2 flex-shrink-0"></span>
+                  Industrial Electrical & Mechanical Systems
+                </h3>
+                <p className="text-sm text-gray-600 leading-relaxed pl-4">
+                Upgraded power distribution, lighting systems, and HVAC solutions tailored to industrial demands.
+                </p>
+              </li>
+
+              <li>
+                <h3 className="text-sm md:text-base font-bold text-gray-900 mb-1 flex items-start gap-2">
+                  <span className="w-1.5 h-1.5 bg-gray-900 rounded-full mt-2 flex-shrink-0"></span>
+                  Flooring & Structural Reinforcement
+                </h3>
+                <p className="text-sm text-gray-600 leading-relaxed pl-4">
+                Heavy-duty flooring systems, slab reinforcement, and structural upgrades to support industrial equipment and loads.
+                </p>
+              </li>
+
+              <li>
+                <h3 className="text-sm md:text-base font-bold text-gray-900 mb-1 flex items-start gap-2">
+                  <span className="w-1.5 h-1.5 bg-gray-900 rounded-full mt-2 flex-shrink-0"></span>
+                  Cold Storage & Refrigeration
+                </h3>
+                <p className="text-sm text-gray-600 leading-relaxed pl-4">
+                Temperature-controlled environments for food, pharmaceutical, and perishable goods storage.
+
+                </p>
+              </li>
+
+              <li>
+                <h3 className="text-sm md:text-base font-bold text-gray-900 mb-1 flex items-start gap-2">
+                  <span className="w-1.5 h-1.5 bg-gray-900 rounded-full mt-2 flex-shrink-0"></span>
+                  Code Compliance & Safety Systems
+                </h3>
+                <p className="text-sm text-gray-600 leading-relaxed pl-4">
+                Fire suppression, emergency egress, and OSHA-complaint safety installations for industrial environments.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
 
       {/* We deliver section */}
       <section className="w-[90%] max-w-[1760px] bg-[#F7F8F8] rounded-[65px] p-8 md:p-12 mx-auto lg:py-8 mb-[100px]">

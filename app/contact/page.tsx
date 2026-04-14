@@ -229,6 +229,10 @@ const Page = () => {
                                             <span className="w-1.5 h-1.5 bg-gray-900 rounded-full flex-shrink-0"></span>
                                             Staten Island
                                         </li>
+                                        <li className="flex items-center gap-2 text-sm md:text-base text-gray-900">
+                                            <span className="w-1.5 h-1.5 bg-gray-900 rounded-full flex-shrink-0"></span>
+                                            New Jersey
+                                        </li>
                                     </ul>
                                 </div>
 
@@ -237,7 +241,7 @@ const Page = () => {
                                     <img
                                         src="/pictures/contact/maps.png"
                                         alt="NYC Service Area Map"
-                                        className="w-full max-w-[200px] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[350px] h-auto object-contain"
+                                        className="w-full max-w-[200px] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[550px] h-auto object-contain"
                                     />
                                 </div>
                             </div>
